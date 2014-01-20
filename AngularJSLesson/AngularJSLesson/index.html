@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html ng-app="weather-forecast">
+<head>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <title>Angular</title>
+
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/angular-sanitize.js"></script>
+    <script src="Scripts/app.js"></script>
+    <script src="Scripts/app/controllers.js"></script>
+</head>
+<body >
+    <h1 class="text-center">Weather-forecast</h1>
+    <div class="panel well">
+        <div ng-controller="MainController">
+            <div class="text-center" ng-model="countyInfo.query">
+                <strong>{{countyInfo.query.lang}}</strong>
+                <div><img src="{{countyInfo.query.results.channel.image.url}}" alt="countyInfo.query.results.image.url" /></div>
+
+            </div>
+
+            <div class="text-center" ng-model="html" ng-bind-html="html">{{html}}</div>
+            <div class=" text-center">
+                <a href="#/location" class="btn-block btn-primary btn-info">Loaction</a>
+                <a href="#/" class="btn-block btn-info">Atmosphere</a>
+                <a href="#/" class="btn-block btn-info">Wind</a>
+            </div>
+
+            
+            <div ng-model="position">
+                {{position}}
+            </div>
+        </div>
+        <div class="text-center" ng-view></div>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,6 @@
+E:\TelerikAcademy\jsf\AngularJSLesson\AngularJSLesson\bin\AngularJSLesson.dll.config
+E:\TelerikAcademy\jsf\AngularJSLesson\AngularJSLesson\bin\AngularJSLesson.dll
+E:\TelerikAcademy\jsf\AngularJSLesson\AngularJSLesson\bin\AngularJSLesson.pdb
+E:\TelerikAcademy\jsf\AngularJSLesson\AngularJSLesson\obj\Debug\AngularJSLesson.csprojResolveAssemblyReference.cache
+E:\TelerikAcademy\jsf\AngularJSLesson\AngularJSLesson\obj\Debug\AngularJSLesson.dll
+E:\TelerikAcademy\jsf\AngularJSLesson\AngularJSLesson\obj\Debug\AngularJSLesson.pdb
